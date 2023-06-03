@@ -1,6 +1,7 @@
 .cards-container {
     display: flex;
     position: relative;
+    justify-content: space-between;
 }
 .sidebar {
     position: absolute;
@@ -23,10 +24,6 @@
     margin-left: 1rem;
     border-bottom: 1px solid orangered;
 }
-.sidebar-item:hover {
-    background-color: rgba(172, 170, 169, 0.314);
-    cursor: pointer;
-}
 .imadome{
     height: 20px;
 }
@@ -43,7 +40,6 @@
 .card {
      height: 20rem;
     width: 20rem;
-    z-index: -1;
     border: 1px solid royalblue;
     background-color: beige;
     border-radius: 25%;
@@ -53,32 +49,13 @@
     align-items: center;
     position: relative;
 }
+.profile-pc > img{ 
+    height: 100px;
+    width: 100px;
+}
 .card:hover {
     box-shadow: 1px 2px 7px 1px royalblue;
     cursor: pointer;
-}
-.card.negative {
-    position: absolute;
-    border: none;
-    z-index: -1;
-    top: 1rem;
-    animation: slideDown 2s ease-in-out forwards;
-    transition: background-color 5s ease;
-    background-color: rgba(255, 0, 153, 0.004);
-}
-@keyframes slideDown {
-
-      50% {
-        transform: translateY(50%); /* Intermediate position */
-      }
-      100% {
-        transform: translateY(100%); /* Final position */
-      }
-}
-.card.negative:hover {
-    box-shadow: 1px 2px 7px 1px rgba(255, 149, 0, 0.425);
-    cursor: pointer;
-    background-color: yellow;
 }
 .img {
     height: 50%;

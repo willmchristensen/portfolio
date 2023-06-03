@@ -1,0 +1,18 @@
+.nav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    font-size: 1rem;
+    color: var(--white);
+    text-decoration: none;
+}
+.nav-item:hover{
+    color: var(--black);
+    filter: brightness(90%);
+    cursor: pointer;
+}
+.nav-item-container{
+    margin-right: 3rem;
+}
