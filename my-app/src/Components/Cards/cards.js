@@ -45,7 +45,9 @@ I can be contacted by email at: willmchristensen@gmail.com
                             <i class="fas fa-yin-yang"></i>
                         </button>
                 </div> */}
-                
+                <img src="../../../images/pls.png" alt="" />
+                <img src="../../../images/query-splash.png" alt="" />
+                <img src="../../../images/sharebnb-splash.png" alt="" />
                 <a 
                     href='https://sharebnb-wpig.onrender.com/'
                     className="card"
