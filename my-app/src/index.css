@@ -4,3 +4,8 @@ img {
     height: 100px;
     width: 100px;
 }
+.profile-pc{ 
+    object-fit: contain;
+    height: 400px;
+    width: 400px;
+}
