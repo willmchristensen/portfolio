@@ -94,10 +94,11 @@ I can be contacted by email at: willmchristensen@gmail.com
             </div>
             <div className="cards-container">
                 <ul>
-                    <li>Email: willmchristensen</li>
+                    <li>Email: willmchristensen@gmail.com</li>
                     <li>Phone Number: 559-284-4414</li>
                     <li><a href="https://docs.google.com/document/d/1u8rULmGGkga0h7qKgC56gOraWr6Egk_aSDluzh5oh44/edit?usp=drive_link">Resume</a></li>
                     <li><a href="https://github.com/willmchristensen">Github</a></li>
+                    <li><a href="https://www.linkedin.com/in/will-christensen-85531317a/">linkedin</a></li>
                 </ul>
             </div>
             <div className="cards-container">
