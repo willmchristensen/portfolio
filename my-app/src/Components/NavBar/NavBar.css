@@ -9,41 +9,70 @@
     width: 100%;
     height: 100%;
 }
-.arrow-left {
-    width: 0; 
-    height: 0; 
+.box:hover{
+    background-color: silver;
+}
+.left {
+    width: 0;
+    height: 0;
     border-top: 60px solid transparent;
     border-bottom: 60px solid transparent;
     border-right: 60px solid green;
 }
-.arrow-right { 
-    width: 0; 
-    height: 0; 
+.box{
+    display: flex;
+    align-items: center;
+    left: 10px;
+    position: absolute;
+    width: 0;
+    height: 0;
     border-top: 60px solid transparent;
     border-bottom: 60px solid transparent;
     border-left: 60px solid green;
 }
-.arrow-righ-1 { 
-    position: absolute;
-    right: 100px;
-    top: 100px;
+.right {
+    position: relative;
+    right: 40px;
+    width: 0;
+    height: 0;
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+    border-left: 60px solid green;
+}
+.yeet {
+    right: 40px;
+    width: 0;
+    height: 0;
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+    border-left: 60px solid palegoldenrod;
+    transform: rotate(0.9turn);
+}
+.twist {
+    background: linear-gradient(yellow   green);
+}
+.righ-1 {
+    position: relative;
     background-origin: padding-box;
-    width: 0; 
-    height: 0; 
+    bottom: 35px;
+    right: 100px;
+    width: 0;
+    height: 0;
     border-top: 60px solid transparent;
     border-bottom: 60px solid transparent;
     border-left: 60px solid rebeccapurple;
+    transform: rotate(-110deg);
 }
-.arrow-diag-l {
-    width: 0; 
-    height: 0; 
+.diag-l {
+    width: 0;
+    height: 0;
     border-top: 60px solid yellow;
     border-bottom: 60px solid transparent;
     border-left: 60px solid transparent;
 }
-.arrow-diag-r{
-    width: 0; 
-    height: 0; 
+.diag-r{
+    width: 0;
+    height: 0;
     border-top: 60px solid transparent;
     border-bottom: 60px solid gainsboro;
     border-left: 60px solid transparent;
@@ -147,7 +176,7 @@
     width: 150px; /* Adjust the width and height to fit your design */
     height: 150px;
   }
-  
+
   .triangle {
     position: absolute;
     top: 0;
@@ -157,18 +186,17 @@
     border-left: 75px solid transparent;
     border-right: 75px solid transparent;
   }
-  
+
   .triangle-1 {
     border-bottom: 130px solid red; /* Adjust the color and size of each triangle */
   }
-  
+
   .triangle-2 {
     border-bottom: 100px solid green;
     transform: translateY(65px); /* Adjust the positioning of each triangle */
   }
-  
+
   .triangle-3 {
     border-bottom: 70px solid blue;
     transform: translateY(130px);
   }
-  

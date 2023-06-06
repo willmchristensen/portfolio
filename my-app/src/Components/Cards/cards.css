@@ -49,7 +49,7 @@
     align-items: center;
     position: relative;
 }
-.profile-pc > img{ 
+.profile-pc > img{
     height: 100px;
     width: 100px;
 }
@@ -76,4 +76,7 @@
 button {
     z-index: 1;
     position: absolute;
+}
+.project-img{
+    object-fit: cover;
 }

@@ -1,0 +1,23 @@
+/* TODO Add site wide styles */
+img {
+    max-height: 100%;
+    max-width: 100%;
+}
+.profile-pc{
+    object-fit: contain;
+    height: 400px;
+    width: 400px;
+}
+/* @tailwind base; */
+/* @tailwind components; */
+@tailwind utilities;
+p {
+    text-indent: 1rem;
+    padding-bottom: 1rem;
+}
+.vert {
+    writing-mode: vertical-lr;
+}
+*{
+    max-width: 100%;
+}
