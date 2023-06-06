@@ -6,36 +6,30 @@ const NavBar = ({ isLoaded }) => {
     return(
         <div className="nav-container white-background">
             <nav className="nav">
-                <div className="nav-section">
-                    <div className="logo">
-                        <NavLink
-                            to='/'
-                        >
-                            <i class="fas fa-yin-yang"></i>
-                        </NavLink>
+                {/* <div className="arrow-left">
+                            
+                </div> */}
+                <div className="arrow-right">
+                    <div className="arrow-righ-1">
+                                
                     </div>
-                    <NavItem
-                        url={"/about-me"}
-                        text={"About Me"}
-                    >
-                    </NavItem>
-                    <NavItem
-                        url={"/skills"}
-                        text={"skills"}
-                    >
-                    </NavItem>
-                    <NavItem
-                        url={"/projects"}
-                        text={"Projects"}
-                    >
-                    </NavItem>
-                    <NavItem
-                        url={"/contact"}
-                        text={"Contact"}
-                    >
-                    </NavItem>
+                </div>
+                <div className="arrow-diag-l">
+                            
+                </div>
+                <div className="arrow-diag-r">
+                            
                 </div>
             </nav>
+            <div className="nav-container white-background">
+      <nav className="nav">
+        <div className="triangle-container">
+          <div className="triangle triangle-1"></div>
+          <div className="triangle triangle-2"></div>
+          <div className="triangle triangle-3"></div>
+        </div>
+      </nav>
+    </div>
         </div>
     )
 
